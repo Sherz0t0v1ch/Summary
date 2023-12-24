@@ -1,0 +1,217 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background: #ECF2FF;
+}
+.header{
+    width: 736px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background:  #FFF;
+    box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+    display: flex;
+}
+.head{
+    width: 368px;
+    height: 512px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 28px;  
+}
+.h1{
+    color: #CAC9FF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.mini-head{
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    background:  linear-gradient(180deg, #4D21C9 0%, rgba(37, 33, 201, 0.00) 100%, rgba(37, 33, 201, 0.00) 100%);
+    border-radius: 50%;
+}
+.p1{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 72px;
+    padding-top: 50px;
+}
+.mini-p{
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: #CAC9FF;
+    text-align: center;
+    opacity: 0.5168;
+}
+.p2{
+    font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #FFF;
+text-align: center;
+}
+.p3{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+color: #CAC9FF;
+text-align: center;
+}
+.div0{
+    display: flex;
+    flex-direction: column;
+    row-gap: 14px;
+}
+.header2{
+    width: 368px;
+height: 512px;
+flex-shrink: 0;
+border-radius: 32px;
+background:  #FFF;
+box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+row-gap: 41px;
+}
+.p4{
+    font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+color: #303B59;
+}
+.li{
+    width: 288px;
+height: 56px;
+flex-shrink: 0;
+}
+.li1{
+    border-radius: 12px;
+background: var(--red-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #F55);
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 81px;
+}
+.li2{
+    border-radius: 12px;
+background: var(--yellow-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #FFB21E);
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 81px;
+}
+.li3{
+    border-radius: 12px;
+background: var(--green-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #00BB8F);
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 81px;
+}
+.li4{
+    border-radius: 12px;
+background: var(--blue-95-white, linear-gradient(0deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), #1125D6);
+display: flex;
+align-items: center;
+justify-content: center;
+column-gap: 81px;
+}
+img{
+    width: 20px;
+height: 20px;
+flex-shrink: 0;
+}
+.p{
+    font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.p5{
+    color: #F55;
+}
+.p6{
+    color: #FFB21E;
+}
+.p7{
+    color: #00BB8F;
+}
+.p8{
+    color: #1125D6;
+}
+.number0{
+    color: #303B59;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+opacity: 0.5;
+}
+.number1{
+    color:  #303B59;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ul1{
+    display: flex;
+    column-gap: 12px;
+}
+.ul2{
+    display: flex;
+    column-gap: 8px;
+}
+button{
+    width: 288px;
+height: 56px;
+border-radius: 128px;   
+background: #303B59;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
+}
+.p10{
+    color:  #fff;
+text-align: right;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.ul-finish{
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+
